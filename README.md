@@ -28,7 +28,7 @@
 <h3 align="center">Installation (Default Version)</h3>
 
   ```html
-wget https://raw.githubusercontent.com/Zeynineph/deb-9-10-installer/main/installer && chmod +x DB && ./DB
+wget https://raw.githubusercontent.com/Zeynineph/deb-9-10-installer/main/installer && chmod +x installer && ./installer
   ```
 
 
