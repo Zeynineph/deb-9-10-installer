@@ -13,7 +13,7 @@ SSH_Port2='53'
 SSH_Port2='80'
 
 # Your SSH Banner
-SSH_Banner='https://raw.githubusercontent.com/raziman869/AutoScriptDB/master/Files/Plugins/banner'
+SSH_Banner='https://raw.githubusercontent.com/Zeynineph/deb-9-10-installer/main/Files/Plugins/banner'
 
 # Dropbear Ports
 Dropbear_Port1='445'
@@ -1243,7 +1243,7 @@ echo "   - Download Link           : http://$IPADDR:85/configs.zip"  | tee -a lo
 echo " ©SigulaDev"  | tee -a log-install.txt
 echo " t.me/sigula"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo " This script is under project of https://github.com/raziman869/AutoScriptDB"  | tee -a log-install.txt
+echo " This script is under project of https://www.facebook.com/zeynine.vpn"  | tee -a log-install.txt
 echo " Please Reboot your VPS"
 
  # Clearing all logs from installation
