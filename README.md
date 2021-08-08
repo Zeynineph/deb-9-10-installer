@@ -31,9 +31,6 @@
 wget https://raw.githubusercontent.com/Zeynineph/deb-9-10-installer/main/installer && chmod +x installer && ./installer
   ```
 
-
-
-
 <h3 align="center">Additional Info</h3>
 <p align="center">
 Recommended OS: Debian 10 Buster x64
