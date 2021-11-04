@@ -20,8 +20,8 @@ Dropbear_Port1='445'
 Dropbear_Port2='442'
 
 # Stunnel Ports
-#Stunnel_Port2='443' # through OpenSSH
-#Stunnel_Port2='446' # through Dropbear
+Stunnel_Port2='443' # through OpenSSH
+Stunnel_Port2='446' # through Dropbear
 
 # OpenVPN Ports
 OpenVPN_TCP_Port='443'
@@ -1256,4 +1256,4 @@ echo " Please Reboot your VPS"
  rm -rf /root/.bash_history && history -c && echo '' > /var/log/syslog
 
 rm -f DBE*
-exit 1
+#exit 1
