@@ -186,16 +186,16 @@ function InsStunnel(){
  StunnelDir=$(ls /etc/default | grep stunnel | head -n1)
 
  # Creating stunnel startup config using cat eof tricks
-cat <<'MyStunnelD' > /etc/default/$StunnelDir
+#cat <<'MyStunnelD' > /etc/default/$StunnelDir
 # My Stunnel Config
-ENABLED=1
-FILES="/etc/stunnel/*.conf"
-OPTIONS=""
-BANNER="/etc/banner"
-PPP_RESTART=0
+#ENABLED=1
+#FILES="/etc/stunnel/*.conf"
+#OPTIONS=""
+#BANNER="/etc/banner"
+#PPP_RESTART=0
 # RLIMITS="-n 4096 -d unlimited"
-RLIMITS=""
-MyStunnelD
+#RLIMITS=""
+#MyStunnelD
 
  # Removing all stunnel folder contents
  #rm -rf /etc/stunnel/*
