@@ -20,8 +20,8 @@ Dropbear_Port1='445'
 Dropbear_Port2='442'
 
 # Stunnel Ports
-Stunnel_Port2='443' # through OpenSSH
-Stunnel_Port2='446' # through Dropbear
+#Stunnel_Port2='443' # through OpenSSH
+#Stunnel_Port2='446' # through Dropbear
 
 # OpenVPN Ports
 OpenVPN_TCP_Port='443'
