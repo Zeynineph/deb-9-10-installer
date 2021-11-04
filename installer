@@ -198,7 +198,7 @@ RLIMITS=""
 MyStunnelD
 
  # Removing all stunnel folder contents
- rm -rf /etc/stunnel/*
+ #rm -rf /etc/stunnel/*
  
  # Creating stunnel certifcate using openssl
  #openssl req -new -x509 -days 9999 -nodes -subj "/C=PH/ST=NCR/L=Manila/O=$MyScriptName/OU=$MyScriptName/CN=$MyScriptName" -out /etc/stunnel/stunnel.pem -keyout /etc/stunnel/stunnel.pem &> /dev/null
